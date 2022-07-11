@@ -6,7 +6,7 @@ name: Shiftleft Scan
 jobs:
   scanning:
     env:
-      APP_ID: 249cc229d1fb84120000c2a556b67614b24f3e9d8846b08f8e42b0b97493a3cd
+      APP_ID: cf8e2ca5fcc723a0d4c5011afecc16244b6d837386c329cf37d79be408b6b22d
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULTPARSER_API_HOST\":\"https://slresultparserapi.qa.securin.io/resultparserapi/v1\"\
         ,\"SL_API_HOST\":\"https://slapi.qa.securin.io/shiftleftapi\",\"SL_RESULT_API_HOST\"\
         :\"https://slresultapi.qa.securin.io/resultapi/v1\"}')}}"
